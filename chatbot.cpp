@@ -27,7 +27,7 @@ int main()
     cout << " ------------------------  " << endl;
 
     string str;
-    string statement[13];
+    string statement[14];
     statement[0] = "hello";
     statement[1] = "hi";
     statement[2] = "hey";
@@ -41,8 +41,8 @@ int main()
     statement[10] = "goodbye";
     statement[11] = "well done";
     statement[12] = "excellent";
-
-    string responses[13] = {"hi there", "hi there", "hi there", "have at least 30 minutes of a moderate physical exercise", "swimming or Biking can replace that", "try taking a walk for about 30-40 minutes and stretch out", "running and Jump rope workout seems to burn the most calories", "to surely keep fit", "a good diet also helps you to keep fit", "you are welcome", "bye! (input exit to close)", "thank you", "thank you"};
+    statement[13] = "can i ask a question";
+    string responses[14] = {"hi there", "hi there", "hi there", "have at least 30 minutes of a moderate physical exercise", "swimming or Biking can replace that", "try taking a walk for about 30-40 minutes and stretch out", "running and Jump rope workout seems to burn the most calories", "to surely keep fit", "a good diet also helps you to keep fit", "you are welcome", "bye! (input exit to close)", "thank you", "thank you" ,"yes please"};
     do
     {
         cout << "Type in your statement" << endl;
@@ -108,6 +108,10 @@ int main()
             else if (str == statement[12])
             {
                 cout << "thank you" << endl;
+            }
+            else if (str == statement[13])
+            {
+                cout << "yes please" << endl;
             }
             else
             {
