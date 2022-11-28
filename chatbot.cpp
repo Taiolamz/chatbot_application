@@ -113,10 +113,15 @@ int main()
             {
                 cout << "i do not understand this, you should give google a try" << endl;
                 cout << "***************************" << endl;
+                cout << "**********O R *************" << endl;
+                cout << "***************************" << endl;
                 cout << "input exit to close your program" << endl;
                 cout << "***************************" << endl
                      << endl;
             }
         }
     } while (str != "exit");
+    {
+        cout << "BYE! " << endl;
+    }
 };
