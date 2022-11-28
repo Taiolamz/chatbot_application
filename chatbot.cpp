@@ -42,7 +42,7 @@ int main()
     statement[11] = "well done";
     statement[12] = "excellent";
 
-    string responses[13] = {"hi there", "hi there", "hi there", "have at least 30 minutes of a moderate physical exercise", "swimming or Biking can replace that", "try taking a walk for about 30-40 minutes and stretch out", "running and Jump rope workout seems to burn the most calories", "to surely keep fit", "a good diet also helps you to keep fit", "you are welcome", "bye!", "thank you", "thank you"};
+    string responses[13] = {"hi there", "hi there", "hi there", "have at least 30 minutes of a moderate physical exercise", "swimming or Biking can replace that", "try taking a walk for about 30-40 minutes and stretch out", "running and Jump rope workout seems to burn the most calories", "to surely keep fit", "a good diet also helps you to keep fit", "you are welcome", "bye! (input exit to close)", "thank you", "thank you"};
     do
     {
         cout << "Type in your statement" << endl;
@@ -99,7 +99,7 @@ int main()
             }
             else if (str == statement[10])
             {
-                cout << "bye!" << endl;
+                cout << "bye! (input exit to close)" << endl;
             }
             else if (str == statement[11])
             {
